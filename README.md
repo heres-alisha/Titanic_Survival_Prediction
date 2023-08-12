@@ -1,7 +1,5 @@
 # Titanic_Survival_Prediction
 
-# Titanic_Survival_Prediction-Using_R_language
-
 This repository contains a machine learning project for predicting the survival of passengers who traveled on the Titanic ship in 1912. 
 The project is implemented in R language and uses the Titanic dataset from Kaggle.
 
