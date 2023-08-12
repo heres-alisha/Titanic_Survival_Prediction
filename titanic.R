@@ -1,5 +1,4 @@
 
-
 #Loading Dataset
 Titanic=read.csv(file.choose())
 Titanic
@@ -26,7 +25,7 @@ colSums(is.na(Titanic))
 #It does not have significance in the survival rate. 
 #For Age we can replace the value with mode respectively. 
 #Converting the age variable to categorical to make it into groups.
-#And also we’ll eliminate Name, PassengerId and Ticket columns as it doesn’t have any significance in the survival rate.
+#And also weâ€™ll eliminate Name, PassengerId and Ticket columns as it doesnâ€™t have any significance in the survival rate.
 col<-c("PassengerId","Name","Ticket","Cabin")
 Titanic[,col]<-list(NULL)
 Titanic1<-Titanic
